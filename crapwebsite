@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+body {
+    background: url(https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/t31/p180x540/1921245_10202062184848406_1410698066_o.jpg) 50%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color:limegreen;
+    
+   
+}
+</style>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
+</head>
+<body style="background-color:lightblue">
+	<h1 style="text-align:center;font-size:30px;font-family:verdana">Alex Ferrigno</h1>
+<p style="font-size:20px"> I've been learning some basic html coding for a little while now and feel fairly confident in my ability. In order to demonstrate this to you I have made this small mock-up of a website. This took me less than an hour to code.</p>
+<p style="font-size:20px">I think the <a href="http://ucllawsociety.co.uk">UCL Law Society</a> website is brilliant the way it is and so I have no real policies with regards to changing it greatly. I simply want to lend my skills to keeping it running as well as Tanya has before me and to helping update it throughout the year, and if there is room for improvement, I will of course strive to better it.</p>
+	<p style="font-size:20px"> So, for a swagtastic webmaster, vote <a href="http://facebook.com/alexanderferrigno"> Alex Ferrigno</a> You know you want to.</p>
+
+</html>
