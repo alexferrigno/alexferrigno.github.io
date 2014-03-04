@@ -14,15 +14,15 @@ body{
 	margin: 0;
 	text-align: center;
 }
-div#wrapper{
+#wrapper{
 	background-color: red;
 	width: 720px;
 	margin: 0 auto;
 	height: 100%;
 	text-align: left;
 }
-div#content{
-	background-color: #b2b2b2;
+#content{
+	background-color: green;
 	text-align: center;
 }
 .image{
@@ -35,7 +35,6 @@ div#content{
 	box-shadow: 0 0 8px rgba(0,0,0,.8);
 	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.8);
 	-moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
-
 }
 #main{
 	border-radius:5px;
@@ -56,7 +55,10 @@ a{
 	text-decoration: none;
 	color: red;
 }
-
+a:hover{
+	color:black;
+	text-decoration: underline;
+}
 </style>
 
 <head>
@@ -68,13 +70,14 @@ a{
 <body>
 	<div id="wrapper">
 	<div id="content">
+		<div style="height:2000px">
         <center><div align="center", class="image"></div></center>
    		
    		<div id="title">
 			Alex Ferrigno for Webmaster
 		</div>	
 
-        <div style="height:2000px", id="main">
+        <div id="main">
         	<p> I've been learning some basic html coding for a little while now and feel fairly confident in my ability. In order to demonstrate this to you I have made this small mock-up of a website.</p>
 
 			<p>I appreciate this may not look graphically gorgeous but, as I have said, I have only been coding since January so I have been more focused on the functionality side than the graphical, and so I will be more than happy to explain any of the elements on this page to anyone with an interest, and hope that everyone who does know some coding will be able to see that I have attempted to include a wide range of elements within this page. I will of course continue to work on my skills every week from now and so expect to be even better by the time I have to take the reigns from Tanya, and so am sure I will be able to look after the website just as well as she has.</p>
@@ -84,8 +87,9 @@ a{
         	<h1>My Policies</h1>
         	<p>blah blah blah</p>
         	<a href="facebook.com/alexanderferrigno">My Facebook</a>
+        </div>
     </div>
 	</div>
-        </div>
+    </div>
 
 </html>
