@@ -9,14 +9,14 @@ body{
 	font-family: sans-serif;
 
 }
-#wrapper{
+.wrapper{
 	
 	width: 720px;
 	margin: 0 auto;
 	height: 100%;
 	text-align: left;
 }
-#content{
+.content{
 	background-color: #FFFFFF;
 	text-align: center;
 	padding: 30px;
@@ -32,13 +32,13 @@ body{
 	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.8);
 	-moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
 }
-#main{
+.main{
 	position: center;
 	width: 100%;
 	text-align: left;
 	line-height: 25px;
 }
-#header{
+.header{
 	text-align: center;
 	margin: auto;
 	margin-top: 15px;}
