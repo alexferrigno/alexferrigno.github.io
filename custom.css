@@ -24,6 +24,13 @@ body{
 .image{
 	width: 180px;
 	height: 180px;
+	border-radius: 90px;
+	-webkit-border-radius:90px;
+	-moz-border-radius:90px;
+	background: url(swag.jpg);
+	box-shadow: 0 0 8px rgba(0,0,0,.8);
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.8);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
 }
 .main{
 	position: center;
